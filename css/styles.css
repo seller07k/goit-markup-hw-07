@@ -250,6 +250,7 @@ p {
 
 .sect {
     padding: 120px 0;
+    margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -343,6 +344,7 @@ p {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    border-top: none;
 }
 
 .visually-hidden {
