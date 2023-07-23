@@ -376,6 +376,7 @@ p {
 .pcards {
     padding: 32px 16px;
     border-top: none;
+    margin-bottom: 8px;
     border: 1px solid var(--third-white-color);
 }
 
