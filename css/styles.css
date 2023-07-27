@@ -15,6 +15,7 @@ body {
     --active-link-color: #404bbf;
     --third-white-color: #e7e9fc;
     --grey-second-link: #8e8f99;
+    --green-active-one: #31d0aa;
 }
 
 .logo {
@@ -146,6 +147,7 @@ body {
     letter-spacing: 0.02em;
     max-width: 264px;
     color: var(--secondary-white-color);
+    margin-bottom: 16px;
 }
 
 .heading {
@@ -445,6 +447,7 @@ p {
 .svg-teamli:hover,
 .svg-teamli:focus {
     background-color: var(--active-link-color);
+   
 } 
 .teamli-fill{
     fill: var(--secondary-white-color);
@@ -499,8 +502,13 @@ margin-left: 540px;
 }
 .sociallinks {
     margin-left: 0 auto;
+    margin-right: 120px;
 }
 .footercnt {
     display: flex;
     align-items: baseline;
+}
+.footteamli:hover,
+.footteamli:focus {
+    background-color: var(--green-active-one);
 }
