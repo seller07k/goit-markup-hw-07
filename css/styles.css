@@ -492,6 +492,8 @@ p {
 display: flex;
 gap: 16px;
 margin-left: 540px;
+margin-right: 120px
+
 }
 .footfillsvg {
     fill: currentColor;
