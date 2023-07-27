@@ -99,15 +99,15 @@ body {
     background-color: var(--secondary-white-color);
     cursor: pointer;
 }
-.second {
-margin-bottom: 8px;
-}
 
 .filter:hover,
 .filter:focus {
     color: var(--primary-white-color);
     background-color: var(--active-link-color);
     border: 1px solid transparent;
+}
+.second {
+    margin-bottom: 8px;
 }
 
 .text-two {
@@ -438,6 +438,7 @@ p {
     width: 40px;
     height: 40px;
     display: flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     align-items: center;
 }
