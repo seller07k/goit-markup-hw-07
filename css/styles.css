@@ -469,7 +469,7 @@ p {
     align-items: center;
     color: var(--grey-second-link);
 }
-.foot-listsvg:hover
+.foot-listsvg:hover,
 .foot-listsvg:focus {
     border-color: var(--active-link-color);
     color: var(--active-link-color);
