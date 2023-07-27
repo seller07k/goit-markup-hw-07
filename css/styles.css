@@ -509,3 +509,6 @@ margin-left: 540px;
 .footteamli:focus {
     background-color: var(--green-active-one);
 }
+.iconfill {
+    fill: var(--secondary-white-color);
+}
