@@ -147,7 +147,6 @@ body {
     letter-spacing: 0.02em;
     max-width: 264px;
     color: var(--secondary-white-color);
-    margin-bottom: 16px;
 }
 
 .heading {
@@ -489,7 +488,6 @@ p {
         margin-left: 540px;
         margin-bottom: 16px;
         color: var(--primary-white-color);
-
 }
 .moresvg {
 display: flex;
@@ -501,7 +499,6 @@ margin-left: 540px;
     fill: currentColor;
 }
 .sociallinks {
-    margin-left: 0 auto;
     margin-right: 120px;
 }
 .footercnt {
