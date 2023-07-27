@@ -492,9 +492,15 @@ p {
 display: flex;
 gap: 16px;
 margin-left: 540px;
-margin-right: 120px
 
 }
 .footfillsvg {
     fill: currentColor;
+}
+.sociallinks {
+    margin-left: 0 auto;
+}
+.footercnt {
+    display: flex;
+    align-items: baseline;
 }
