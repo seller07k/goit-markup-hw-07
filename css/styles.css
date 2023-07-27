@@ -106,9 +106,7 @@ body {
     background-color: var(--active-link-color);
     border: 1px solid transparent;
 }
-.second {
-    margin-bottom: 8px;
-}
+
 
 .text-two {
     font-family: var(--primary-font);
@@ -296,6 +294,7 @@ p {
     justify-content: center;
     display: flex;
     padding-left: 100px 24px;
+    margin-bottom: 8px;
 }
 .sectn {
     padding-bottom: 120px;
@@ -450,6 +449,7 @@ p {
     fill: var(--secondary-white-color);
 }
 .svg-sectionfive {
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .foot {
@@ -467,9 +467,7 @@ p {
     display: flex;
     align-items: center;
 }
-.foot-three {
-    padding-top: 120px;
-}
+
 .footer-heading {
     font-family: var(--primary-font);
         font-size: 16px;
