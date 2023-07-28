@@ -70,6 +70,15 @@ body {
 .menu:focus {
     color: var(--active-link-color);
 }
+.menu::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: var(--active-link-color);
+border-radius: 2px;
+}
 
 .to-get-in-touch {
     font-style: normal;
@@ -493,14 +502,12 @@ p {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-left: 540px;
         margin-bottom: 16px;
         color: var(--primary-white-color);
 }
 .moresvg {
 display: flex;
 gap: 16px;
-margin-left: 540px;
 
 }
 .footfillsvg {
