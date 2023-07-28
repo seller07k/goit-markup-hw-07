@@ -44,7 +44,7 @@
 <div class="container">
 <h1 class="heading">Effective Solutions<br>
 for Your Business</h1>
-<button class="ordr" type="button">Order Service</button>
+<button class="ordr" type="button" data-modal-open>Order Service</button>
 </div>
 </section>
 <section class="sect">
@@ -297,9 +297,13 @@ growth solutions.
 </div>
 </div>
 </footer>
-<div class="modal-w">
-    
-</div>
+    <div class="modal-w is-hidden" data-modal>
+        <div class="datamodal-t">
+<button type="button" class="buttonmodal-cl" data-modal-close>
+<svg class="svgcross" width="8" height="8"><use href="./images/icons.svg#icon-close-black-18dp-2-1"></use></svg>
+</button>
+    </div>
+    </div>
 <script src="./js/modal.js"></script>
 </body>
 </html>
