@@ -183,6 +183,7 @@ border-radius: 2px;
     background-color: var(--secondary-accent-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.header1.jpg);
     padding: 188px 0;
+    max-width: 1440px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -572,6 +573,7 @@ gap: 16px;
 .buttonmodal-cl:hover,
 .buttonmodal-cl:focus {
 background-color: var(--active-link-color);
+fill: var(--primary-white-color);
 border: none;
 }
 .svgcross {
