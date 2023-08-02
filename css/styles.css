@@ -665,6 +665,7 @@ overflow: hidden;
 }
 .form-subsc {
     display: flex;
+    gap: 24px;
 }
 .data-heading {
     color: var(--primary-black-color);
