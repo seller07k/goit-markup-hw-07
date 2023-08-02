@@ -772,7 +772,6 @@ border-color: var(--primary-accent-color);
 }
 .svg-labell {
     margin-bottom: 8px;
-    margin-bottom: 16px;
 }
 .cont-check {
 margin-bottom: 24px;
@@ -813,4 +812,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: var(--secondary-white-color);
 border: none;
 background-color: var(--active-link-color);
+}
+.svg-labell-tw {
+    margin-bottom: 16px;
 }
