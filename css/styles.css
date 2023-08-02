@@ -800,5 +800,6 @@ margin-bottom: 24px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     fill: transparent;
 }
