@@ -771,8 +771,8 @@ border-color: var(--primary-accent-color);
     letter-spacing: 0.48px;
 }
 .svg-labell {
-    margin-bottom: 16px;
     margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .cont-check {
 margin-bottom: 24px;
