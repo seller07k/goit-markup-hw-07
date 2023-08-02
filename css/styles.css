@@ -638,8 +638,10 @@ overflow: hidden;
     border-radius: 4px;
     border: 1px solid var(--primary-white-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
     width: 264px;
     height: 40px;
+    color: var(--primary-white-color);
     background-color: var(--primary-black-color);
 }
 .inpf::placeholder {
