@@ -691,6 +691,7 @@ overflow: hidden;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    margin-bottom: 16px;
     letter-spacing: 0.32px;
     width: 360px;
     height: 24px;
@@ -718,6 +719,9 @@ overflow: hidden;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.48px;
+    line-height: 1.17;
+    display: block;
+    margin-bottom: 4px;
 }
 .mod-int {
     width: 360px;
@@ -753,4 +757,7 @@ overflow: hidden;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.48px;
+}
+.svg-labell {
+    margin-bottom: 8px;
 }
