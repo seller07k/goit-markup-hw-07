@@ -18,7 +18,27 @@ body {
     --green-active-one: #31d0aa;
     --background-modal: #fcfcfc;
 }
+@media screen and (min-width: 320px) {
+    html {
+        overflow-x: hidden;
+    }
+}
 
+@media (min-width: 428px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 428px;
+    }
+
+    .navig {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
 .logo {
     font-family: var(--title-font);
     font-size: 18px;
