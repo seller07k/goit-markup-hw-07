@@ -9,6 +9,7 @@
     rel="stylesheet">
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
 <link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 <header class="page-header">
@@ -35,8 +36,28 @@
                 </li>
             </ul>
         </address>
+        <button type="button" class="button-modal-secc" data-menu-open><svg width="32px" height="32px" stroke="var(--primary-black-color)"><use href="./images/icons.svg#icon-charm_menu-hamburger"></use></svg></button> 
     </div>
 </header>
+<div class="modal is-hidden" data-menu>
+<button type="button" class="buttonmodal-cl" data-menu-close>
+
+    <svg class="svgcross" width="8" height="8">
+     <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+    </svg>
+</button>
+<ul class="modal-menu-stud list">
+<li>
+    <h2 class="stud-head">Studio</h2>
+</li>
+<li>
+    <h2 class="stud-head-m">Portfolio</h2>
+</li>
+<li>
+    <h2 class="stud-head-m">Contacts</h2>
+</li>
+</ul>
+</div> 
 <main>
 <section class="sec">
 <div class="container">
@@ -60,7 +81,7 @@ for Your Business</h1>
 <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
 </li>
 <li class="qual">
-<div class="qualdiv"><svg width="64" height="64"><use href="./images/icons.svg#icon-diagram-1-2"></use></svg></div>
+<div class="qualdiv"><svg  width="64" height="64"><use href="./images/icons.svg#icon-diagram-1-2"></use></svg></div>
 <h3 class="text-two">Diligence</h3>
 <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
 </li>
@@ -84,9 +105,9 @@ for Your Business</h1>
 </section>
 <section class="team-sec">
 <div class="container">
-    <h2 class="descrptn">Our Team</h2>
+    <h2 class="twdesc">Our Team</h2>
     <ul class="mndnk list">
-        <li class="imgli"><img class=" link" src="./images/img-7-2.jpg" width="264" height="260"
+        <li class="imgli"><img class="imaget" src="./images/img-7-2.jpg" width="264" height="260"
                 alt="prod.designer-M.Guererro">
             <div class="elements">
                 <h3 class="text-workers">Mark Guerrero</h3>
@@ -123,7 +144,7 @@ for Your Business</h1>
                 </ul>
             </div>
         </li>
-        <li class="imgli"><img class=" link" src="./images/img-2-2.jpg" width="264" height="260"
+        <li class="imgli"><img class="imaget" src="./images/img-2-2.jpg" width="264" height="260"
                 alt="frontend.dev.-T.Ford">
             <div class="elements">
                 <h3 class="text-workers">Tom Ford</h3>
@@ -160,7 +181,7 @@ for Your Business</h1>
                 </ul>
                 </div>
         </li>
-        <li class="imgli"><img class=" link" src="./images/img-3-2.jpg" width="264" height="260"
+        <li class="imgli"><img class="imaget" src="./images/img-3-2.jpg" width="264" height="260"
                 alt="markting-C.Garcia">
             <div class="elements">
                 <h3 class="text-workers">Camila Garcia</h3>
@@ -197,7 +218,7 @@ for Your Business</h1>
                 </ul>
             </div>
         </li>
-        <li class="imgli"><img class=" link" src="./images/img-4-2.jpg" width="264" height="260"
+        <li class="imgli"><img class="imaget" src="./images/img-4-2.jpg" width="264" height="260"
                 alt="UI-designer-D.Wilson">
             <div class="elements">
                 <h3 class="text-workers">Daniel Wilson</h3>
@@ -241,7 +262,7 @@ for Your Business</h1>
 <div class="container">
 <h2 class="descrptn">Customers</h2>
 <ul class="foot list">
-<li class="lifoot"><a href="#" class="foot-listsvg"><svg class="footfillsvg" width="104" height="56"><use href="./images/icons.svg#icon-Logo-2"></use></svg></a></li>
+<li class=""><a href="#" class="foot-listsvg"><svg class="footfillsvg" width="104" height="56"><use href="./images/icons.svg#icon-Logo-2"></use></svg></a></li>
 <li class="lifoot"><a href="#" class="foot-listsvg"><svg class="footfillsvg" width="104" height="56"><use href="./images/icons.svg#icon-Logo-3"></use></svg></a></li>
 <li class="lifoot"><a href="#" class="foot-listsvg"><svg class="footfillsvg" width="104" height="56"><use href="./images/icons.svg#icon-Logo-4"></use></svg></a></li>
 <li class="lifoot"><a href="#" class="foot-listsvg"><svg class="footfillsvg" width="104" height="56"><use href="./images/icons.svg#icon-Logo-7"></use></svg></a></li>
@@ -302,7 +323,7 @@ growth solutions.
 <button type="submit" class="subsc-button">Subscribe<svg width="24" height="24" class="icon-mail"><use href="./images/icons.svg#icon-Frame-3"></use></svg></button>
 </form>
 </div>
-</div>
+</div>l
 </footer>
     <div class="modal-w is-hidden" data-modal>
         <div class="datamodal-t">
@@ -359,6 +380,7 @@ class="mod-int" />
 </form>
     </div>
     </div>
+<script src="./js/menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>
 </html>

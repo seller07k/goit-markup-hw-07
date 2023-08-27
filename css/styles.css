@@ -18,27 +18,7 @@ body {
     --green-active-one: #31d0aa;
     --background-modal: #fcfcfc;
 }
-@media screen and (min-width: 320px) {
-    html {
-        overflow-x: hidden;
-    }
-}
 
-@media (min-width: 428px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        max-width: 428px;
-    }
-
-    .navig {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 40px;
-    }
-}
 .logo {
     font-family: var(--title-font);
     font-size: 18px;
@@ -228,6 +208,17 @@ border-radius: 2px;
     margin-bottom: 72px;
     color: var(--primary-black-color);
 }
+.twdesc {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: var(--primary-black-color);
+}
 
 .team-sec {
     background-color: var(--secondary-white-color);
@@ -405,7 +396,7 @@ p {
 }
 
 .mainn {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
 
@@ -459,7 +450,7 @@ p {
 .pagemainfooter {
     padding: 100px 0;
     background-color: var(--primary-black-color);
-    max-height: 312px;
+    /*max-height: 312px;*/
 }
 .section-portfolio {
     padding-top: 96px;
@@ -536,15 +527,15 @@ gap: 16px;
     fill: currentColor;
 }
 .logopf {
-    margin-right: 120px;
+    /*margin-right: 120px;*/
 }
 .footercnt {
-    display: flex;
+    /*display: flex;*/
     align-items: baseline;
 }
 .footteamli:hover,
 .footteamli:focus {
-    background-color: var(--green-active-one);
+    background-color: var(-green-active-one);
 }
 .iconfill {
     fill: var(--secondary-white-color);
@@ -647,7 +638,7 @@ overflow: hidden;
     flex-direction: column;
 }
 .form-foot {
-    margin-left: 80px;
+    /*margin-left: 80px;*/
 }
 
 .inpf {
@@ -696,7 +687,7 @@ overflow: hidden;
     background-color: var(--active-link-color);
 }
 .form-subsc {
-    display: flex;
+    /*display: flex;*/
     gap: 24px;
 }
 .icon-mail {
@@ -851,4 +842,8 @@ background-color: var(--active-link-color);
 }
 .svg-labell-tw {
     margin-bottom: 16px;
+}
+.button-modal-secc {
+    border: none;
+    background-color: var(--primary-white-color);
 }
