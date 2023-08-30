@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Downloads/Raleway 2"
+		},
+		{
+			"path": "../../../../Downloads/Raleway 3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-06"
+	}
+}

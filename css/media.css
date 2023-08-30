@@ -1,21 +1,13 @@
-@media (min-width: 428px) and (max-width:767px) {
+@media screen and (min-width: 428px) and (max-width:767px) {
     .container {
         max-width: 428px;
         margin: 0 auto;
     }
-    .mnl {
+    .pages-menu {
         display: none;
     }
-        .inpf {
-            width: 398px;
-        }
-                .form-foot {
-                    margin-left: 0;
-                }
-        .logopf {
-            margin-right: 0;
-        }
-    .mnk {
+        
+    .contacts {
         display: none;
     }
         .mainn {
@@ -24,14 +16,21 @@
     .logo {
         padding-top: 25.5px;
     }
-        .mndh {
+        .modal-menu-stud {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
             gap: 72px;
         }
-.qual {
+                .form-foot {
+                    margin-left: 0;
+                }
+        
+                .logopf {
+                    margin-right: 0;
+                }
+.goals-li {
     width: calc((100%-72px) /4);
     width: 100%;
     display: flex;
@@ -61,10 +60,10 @@
     align-items: flex-start;
     gap: 40px;
 }
-.qualdiv {
+.text-two {
     display: none;
 }
-.text-two {
+.head-two {
     width: 100%;
     font-family: var(--primary-font);
     text-align: center;
@@ -118,9 +117,6 @@
     flex-direction: column;
     padding-bottom: 0;
     gap: 32px;
-}
-.imaget {
-    text-decoration: none;
 }
 .foot {
 display: flex;
@@ -180,19 +176,16 @@ flex-wrap: wrap;
 margin-left: 249px;
 }
 }
-@media (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
     .container {
         max-width: 768px;
         flex-direction: row;
-    }
-    .page-header {
-     height: 70px;
     }
         .mainn {
             display: flex;
         }
                 .to-get-in-touch {
-                    margin-left: 121px;
+                    margin-left: auto;
                 }
     .sec {
         padding: 112px 0;
@@ -207,19 +200,19 @@ margin-left: 249px;
 .sect {
     padding: 96px 0;
 }
-.mndh {
+.goals {
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
 }
-.qual {
+.goals-li {
  width: calc((100% -72px) / 2);
  width: 356px;
 }
-.qualdiv {
+.goals-div {
     display: none;
 }
-.text-two {
+.head-two {
         font-family: var(--primary-font);
         font-size: 36px;
         font-style: normal;
@@ -229,7 +222,7 @@ margin-left: 249px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-.text {
+.text-two {
         font-family: var(--primary-font);
         font-size: 16px;
         font-style: normal;
@@ -239,20 +232,20 @@ margin-left: 249px;
         height: 72px;
         letter-spacing: 0.32px;
 }
-.sectn {
+.sect-three {
     display: none;
 }
-.team-sec {
+.sect-four {
     padding: 96px 0;
 }
-.mndnk {
+.members {
     display: flex;
     flex-wrap: wrap;
     gap: 64px 24px;
     align-items: center;
     justify-content: center;
 }
-.imgli {
+.card-li {
     width: calc((100%-72px) / 2);
     width: 264px;
 }
@@ -288,7 +281,7 @@ margin-left: 249px;
     margin-right: 24px;
 }
 }
-@media (min-width: 1158px) and (max-width: 10000px) {
+@media screen and (min-width: 1158px) and (max-width: 10000px) {
     .container {
         max-width: 1158px;
         margin: 0 auto;
@@ -314,5 +307,9 @@ margin-left: 249px;
 .form-foot {
     margin-left: 80px;
 }
+.inpf {
+    width: 398px;
+}
+
 }
 
