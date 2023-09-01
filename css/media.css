@@ -13,6 +13,9 @@
         .mainn {
             display: flex;
         }
+        .svg-none {
+            display: none;
+        }
     .logo {
         padding-top: 25.5px;
     }
@@ -22,6 +25,7 @@
             flex-wrap: wrap;
             align-items: center;
             gap: 72px;
+            margin-bottom: 284px;
         }
                 .form-foot {
                     margin-left: 0;
@@ -36,6 +40,13 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+.goals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 72px;
 }
 .modal {
     position: absolute;
@@ -60,21 +71,19 @@
     align-items: flex-start;
     gap: 40px;
 }
-.text-two {
-    display: none;
-}
 .head-two {
-    width: 100%;
-    font-family: var(--primary-font);
-    text-align: center;
-    margin: 0 auto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
+    color: var(--primary-black-color);
+        text-align: center;
+        font-family: var(--primary-font);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
 
 }
+
 .heading {
     max-width: 320px;
     font-size: 36px;
@@ -84,7 +93,7 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.sectn {
+.sect-three {
     display: none;
 }
 
@@ -92,7 +101,7 @@
     text-align: center;
     max-height: 40px;
 }
-.mndn {
+.images-ul {
     display: none;
 }
 .team-sec {
@@ -101,14 +110,13 @@
 .to-get-in-touch {
     display: none;
 }
-.mndnk {
-    display: flex;
+.members {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     gap: 72px;
 }
-.imgli {
+.card-li {
     width: calc((100%-72px) /4);
     display: flex;
     justify-content: center;
@@ -136,7 +144,7 @@ flex-wrap: wrap;
 .sec {
     padding: 112px 0;
 }
-.sect {
+.sect-two {
     padding: 96px 0;
 }
 .team-sec {
@@ -172,7 +180,7 @@ flex-wrap: wrap;
     margin-bottom: 23.5px;
     justify-content: flex-start;
 }
-.button-modal-secc {
+.button-modal-sec {
 margin-left: 249px;
 }
 }
@@ -190,14 +198,20 @@ margin-left: 249px;
     .sec {
         padding: 112px 0;
     }
-    .button-modal-secc {
+    .button-modal-sec {
         display: none;
     }
-    .mnk {
+    .kisa {
+        display: none;
+    }
+    .modal {
+        display: none;
+    }
+    .contacts {
         flex-direction: column;
         gap: 12px;
     }
-.sect {
+.sect-two {
     padding: 96px 0;
 }
 .goals {
@@ -280,6 +294,10 @@ margin-left: 249px;
 .logopf {
     margin-right: 24px;
 }
+.modal {
+    display: none;
+}
+.
 }
 @media screen and (min-width: 1158px) and (max-width: 10000px) {
     .container {
@@ -289,7 +307,7 @@ margin-left: 249px;
 .mainn {
     display: flex;
 }
-.button-modal-secc {
+.button-modal-sec {
     display: none;
 }
 .footercnt {
@@ -310,6 +328,14 @@ margin-left: 249px;
 .inpf {
     width: 398px;
 }
-
+.goals {
+    display: flex;
+}
+.images-ul {
+    display: flex;
+}
+.members {
+    display: flex;
+}
 }
 

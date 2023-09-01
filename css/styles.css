@@ -52,11 +52,11 @@ body {
     list-style: none;
 }
 .pages-menu {
-     display: flex;
+     /*display: flex;*/
      gap: 40px;
  }
 .contacts {
-        display: flex;
+        /*display: flex;*/
         gap: 40px;
 }
 
@@ -182,7 +182,7 @@ SECTION TWO
     padding: 120px 0;
 }
 .goals {
-    display: flex;
+    /*display: flex;*/
     gap: 24px;
     margin: 0 auto;
 }
@@ -236,7 +236,7 @@ SECTION THREE
     color: var(--primary-black-color);
 }
 .images-ul {
-    display: flex;
+    /*display: flex;*/
     gap: 24px;
 } 
 .images {
@@ -263,7 +263,7 @@ SECTION FOUR
     color: var(--primary-black-color);
 }
 .members {
-    display: flex;
+    /*display: flex;*/
     gap: 24px;
 }
 .card-li {
@@ -272,7 +272,7 @@ SECTION FOUR
     background-color: var(--primary-white-color);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.imaget {
+.image {
     text-decoration: none;
 }
 .elements {
@@ -470,12 +470,12 @@ p {
     padding: 0;
 }
 
-.navig {
+.navigation {
     display: flex;
     align-items: center;
 }
 
-.mnl {
+.pages-menu {
     display: flex;
     gap: 40px;
 }
